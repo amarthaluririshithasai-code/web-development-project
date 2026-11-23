@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOBNEST - Find Your Dream Job</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">JOB<span>NEST</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#jobs">Find Jobs</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#jobs" class="nav-btn">Explore Jobs</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="tagline">YOUR CAREER STARTS HERE</p>
+
+            <h1>Find Your <span>Dream Job</span> Today</h1>
+
+            <p>
+                Discover thousands of job opportunities from
+                trusted companies and take the next step in your career.
+            </p>
+
+            <div class="search-box">
+                <input type="text" placeholder="Job title or keyword">
+                <input type="text" placeholder="Location">
+                <button type="button" onclick="document.getElementById('jobs').scrollIntoView({behavior:'smooth'})">Search Jobs</button>
+            </div>
+
+            <p class="popular">
+                Popular: Web Developer | Python | UI/UX Designer
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Categories Section -->
+    <section class="categories section" id="categories">
+
+        <h2 class="section-title">Popular Job Categories</h2>
+
+        <p class="section-subtitle">
+            Explore opportunities in different industries.
+        </p>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <div class="category-icon">💻</div>
+                <h3>IT & Software</h3>
+                <p>Software and technology jobs</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">📊</div>
+                <h3>Data Science</h3>
+                <p>Data analysis and AI careers</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🎨</div>
+                <h3>Design</h3>
+                <p>Creative and design careers</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">📱</div>
+                <h3>Marketing</h3>
+                <p>Digital marketing opportunities</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Job Listings Section -->
+    <section class="jobs section" id="jobs">
+
+        <h2 class="section-title">Featured Job Openings</h2>
+
+        <p class="section-subtitle">
+            Find the right opportunity for your future.
+        </p>
+
+        <div class="job-container">
+
+            <!-- Job 1 -->
+            <div class="job-card">
+
+                <div class="company-logo">G</div>
+
+                <h3>Frontend Developer</h3>
+
+                <p class="company">Google</p>
+
+                <div class="job-details">
+                    <span>📍 Hyderabad</span>
+                    <span>💰 ₹6-10 LPA</span>
+                </div>
+
+                <p class="job-description">
+                    Build responsive and user-friendly websites
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <div class="job-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#apply" class="apply-btn">Apply Now</a>
+
+            </div>
+
+
+            <!-- Job 2 -->
+            <div class="job-card">
+
+                <div class="company-logo blue">M</div>
+
+                <h3>Python Developer</h3>
+
+                <p class="company">Microsoft</p>
+
+                <div class="job-details">
+                    <span>📍 Bangalore</span>
+                    <span>💰 ₹5-9 LPA</span>
+                </div>
+
+                <p class="job-description">
+                    Develop applications using Python and
+                    work with software development teams.
+                </p>
+
+                <div class="job-tags">
+                    <span>Python</span>
+                    <span>Django</span>
+                    <span>SQL</span>
+                </div>
+
+                <a href="#apply" class="apply-btn">Apply Now</a>
+
+            </div>
+
+
+            <!-- Job 3 -->
+            <div class="job-card">
+
+                <div class="company-logo orange">A</div>
+
+                <h3>UI/UX Designer</h3>
+
+                <p class="company">Adobe</p>
+
+                <div class="job-details">
+                    <span>📍 Mumbai</span>
+                    <span>💰 ₹4-8 LPA</span>
+                </div>
+
+                <p class="job-description">
+                    Design attractive user interfaces and
+                    improve digital product experiences.
+                </p>
+
+                <div class="job-tags">
+                    <span>Figma</span>
+                    <span>UI Design</span>
+                    <span>UX</span>
+                </div>
+
+                <a href="#apply" class="apply-btn">Apply Now</a>
+
+            </div>
+
+
+            <!-- Job 4 -->
+            <div class="job-card">
+
+                <div class="company-logo green">T</div>
+
+                <h3>Data Analyst</h3>
+
+                <p class="company">TCS</p>
+
+                <div class="job-details">
+                    <span>📍 Chennai</span>
+                    <span>💰 ₹4-7 LPA</span>
+                </div>
+
+                <p class="job-description">
+                    Analyze data, prepare reports and
+                    generate useful business insights.
+                </p>
+
+                <div class="job-tags">
+                    <span>Python</span>
+                    <span>Excel</span>
+                    <span>SQL</span>
+                </div>
+
+                <a href="#apply" class="apply-btn">Apply Now</a>
+
+            </div>
+
+
+            <!-- Job 5 -->
+            <div class="job-card">
+
+                <div class="company-logo purple">A</div>
+
+                <h3>Digital Marketing Executive</h3>
+
+                <p class="company">Amazon</p>
+
+                <div class="job-details">
+                    <span>📍 Hyderabad</span>
+                    <span>💰 ₹3-6 LPA</span>
+                </div>
+
+                <p class="job-description">
+                    Manage digital campaigns and improve
+                    online brand visibility.
+                </p>
+
+                <div class="job-tags">
+                    <span>SEO</span>
+                    <span>Social Media</span>
+                    <span>Content</span>
+                </div>
+
+                <a href="#apply" class="apply-btn">Apply Now</a>
+
+            </div>
+
+
+            <!-- Job 6 -->
+            <div class="job-card">
+
+                <div class="company-logo red">I</div>
+
+                <h3>Backend Developer</h3>
+
+                <p class="company">Infosys</p>
+
+                <div class="job-details">
+                    <span>📍 Pune</span>
+                    <span>💰 ₹5-8 LPA</span>
+                </div>
+
+                <p class="job-description">
+                    Develop server-side applications and
+                    manage databases and APIs.
+                </p>
+
+                <div class="job-tags">
+                    <span>Java</span>
+                    <span>Node.js</span>
+                    <span>MySQL</span>
+                </div>
+
+                <a href="#apply" class="apply-btn">Apply Now</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Application Section -->
+    <section class="application section" id="apply">
+
+        <h2 class="section-title">Start Your Career Journey</h2>
+
+        <p class="section-subtitle">
+            Interested in a job? Submit your details below.
+        </p>
+
+        <form class="application-form"
+              action="mailto:jobs@example.com"
+              method="post"
+              enctype="text/plain">
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="Name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="Email"
+                   placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="Phone"
+                   placeholder="Enter your phone number" required>
+
+            <label for="position">Position Applying For</label>
+            <select id="position" name="Position" required>
+                <option value="">Select a job</option>
+                <option>Frontend Developer</option>
+                <option>Python Developer</option>
+                <option>UI/UX Designer</option>
+                <option>Data Analyst</option>
+                <option>Digital Marketing Executive</option>
+                <option>Backend Developer</option>
+            </select>
+
+            <label for="resume">Resume Link</label>
+            <input type="url" id="resume" name="Resume"
+                   placeholder="Paste your resume link">
+
+            <button type="submit" class="submit-btn">
+                Submit Application
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+
+        <h2 class="section-title">About JOBNEST</h2>
+
+        <p>
+            JOBNEST is a job portal concept designed to connect
+            job seekers with exciting career opportunities.
+            Our goal is to make job searching easier, faster
+            and more accessible.
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>JOB<span>NEST</span></h2>
+
+        <p>Your Future. Your Career. Your Opportunity.</p>
+
+        <p>Email: support@jobnest.example</p>
+
+        <p>© 2026 JOBNEST. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>
